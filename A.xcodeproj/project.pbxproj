@@ -15,6 +15,37 @@
 		5AD594E920526BF1004A58A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD594E720526BF1004A58A6 /* LaunchScreen.storyboard */; };
 		5AD594F420526BF1004A58A6 /* ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD594F320526BF1004A58A6 /* ATests.swift */; };
 		5AD594FF20526BF1004A58A6 /* AUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD594FE20526BF1004A58A6 /* AUITests.swift */; };
+		5AD5950D20526EEB004A58A6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5950C20526EEA004A58A6 /* Constants.swift */; };
+		5AD5950F20526EF6004A58A6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5950E20526EF6004A58A6 /* Reachability.swift */; };
+		5AD5951120526F33004A58A6 /* CustomAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951020526F33004A58A6 /* CustomAlertController.swift */; };
+		5AD5951320526F38004A58A6 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951220526F38004A58A6 /* CustomActivityIndicator.swift */; };
+		5AD5951520526F4D004A58A6 /* ServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951420526F4D004A58A6 /* ServiceHelper.swift */; };
+		5AD5951720526FE9004A58A6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951620526FE9004A58A6 /* LocationManager.swift */; };
+		5AD5951920527047004A58A6 /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951820527047004A58A6 /* DataBaseHelper.swift */; };
+		5AD5951B2052706F004A58A6 /* ContactHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951A2052706F004A58A6 /* ContactHelper.swift */; };
+		5AD5951D2052709B004A58A6 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951C2052709B004A58A6 /* CommonFunctions.swift */; };
+		5AD5951F205270D6004A58A6 /* DataBaseBL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5951E205270D6004A58A6 /* DataBaseBL.swift */; };
+		5AD595262052A3FC004A58A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595252052A3FC004A58A6 /* LoginViewController.swift */; };
+		5AD595282052AC51004A58A6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595272052AC51004A58A6 /* SignUpViewController.swift */; };
+		5AD5952A2052AC69004A58A6 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595292052AC69004A58A6 /* ForgotPasswordViewController.swift */; };
+		5AD5952C2052AC8F004A58A6 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5952B2052AC8F004A58A6 /* ResetPasswordViewController.swift */; };
+		5AD5952E2052ACAE004A58A6 /* ValidateOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5952D2052ACAE004A58A6 /* ValidateOTPViewController.swift */; };
+		5AD595302052ACD8004A58A6 /* IniatializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5952F2052ACD8004A58A6 /* IniatializationViewController.swift */; };
+		5AD595332052AD2F004A58A6 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595322052AD2E004A58A6 /* ContactListViewController.swift */; };
+		5AD595352052AD6D004A58A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595342052AD6D004A58A6 /* HomeViewController.swift */; };
+		5AD595372052AD91004A58A6 /* UserSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595362052AD91004A58A6 /* UserSideMenuViewController.swift */; };
+		5AD595392052ADAD004A58A6 /* SyncBackUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595382052ADAD004A58A6 /* SyncBackUpViewController.swift */; };
+		5AD5953D2052AE09004A58A6 /* ChangeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5953C2052AE09004A58A6 /* ChangeNumberViewController.swift */; };
+		5AD5953F2052AE1A004A58A6 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5953E2052AE1A004A58A6 /* UserProfileViewController.swift */; };
+		5AD595412052AE34004A58A6 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595402052AE34004A58A6 /* FavouriteViewController.swift */; };
+		5AD595432052AE47004A58A6 /* CreateContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595422052AE47004A58A6 /* CreateContactViewController.swift */; };
+		5AD595452052AE54004A58A6 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595442052AE54004A58A6 /* NotificationViewController.swift */; };
+		5AD595472052AE7A004A58A6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595462052AE7A004A58A6 /* SettingsViewController.swift */; };
+		5AD595492052AE93004A58A6 /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595482052AE93004A58A6 /* NotificationSettingViewController.swift */; };
+		5AD5954B2052AEA7004A58A6 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD5954A2052AEA7004A58A6 /* GroupViewController.swift */; };
+		5AD595512052AF9B004A58A6 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595502052AF9B004A58A6 /* ContactModel.swift */; };
+		5AD595532052AFB3004A58A6 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD595522052AFB3004A58A6 /* NotificationModel.swift */; };
+		C6FA586B396597FE85B5E78C /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B887032F57113D36B818FD0 /* Pods_A.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +80,39 @@
 		5AD594FA20526BF1004A58A6 /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD594FE20526BF1004A58A6 /* AUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUITests.swift; sourceTree = "<group>"; };
 		5AD5950020526BF1004A58A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD5950C20526EEA004A58A6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5AD5950E20526EF6004A58A6 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5AD5951020526F33004A58A6 /* CustomAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertController.swift; sourceTree = "<group>"; };
+		5AD5951220526F38004A58A6 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		5AD5951420526F4D004A58A6 /* ServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceHelper.swift; sourceTree = "<group>"; };
+		5AD5951620526FE9004A58A6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5AD5951820527047004A58A6 /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		5AD5951A2052706F004A58A6 /* ContactHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactHelper.swift; sourceTree = "<group>"; };
+		5AD5951C2052709B004A58A6 /* CommonFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		5AD5951E205270D6004A58A6 /* DataBaseBL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseBL.swift; sourceTree = "<group>"; };
+		5AD595252052A3FC004A58A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5AD595272052AC51004A58A6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5AD595292052AC69004A58A6 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		5AD5952B2052AC8F004A58A6 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		5AD5952D2052ACAE004A58A6 /* ValidateOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateOTPViewController.swift; sourceTree = "<group>"; };
+		5AD5952F2052ACD8004A58A6 /* IniatializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IniatializationViewController.swift; sourceTree = "<group>"; };
+		5AD595322052AD2E004A58A6 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactListViewController.swift; path = /Users/think24/Desktop/A/A/Controller/Home/ContactListViewController.swift; sourceTree = "<absolute>"; };
+		5AD595342052AD6D004A58A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5AD595362052AD91004A58A6 /* UserSideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSideMenuViewController.swift; sourceTree = "<group>"; };
+		5AD595382052ADAD004A58A6 /* SyncBackUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncBackUpViewController.swift; sourceTree = "<group>"; };
+		5AD5953C2052AE09004A58A6 /* ChangeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeNumberViewController.swift; sourceTree = "<group>"; };
+		5AD5953E2052AE1A004A58A6 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		5AD595402052AE34004A58A6 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		5AD595422052AE47004A58A6 /* CreateContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactViewController.swift; sourceTree = "<group>"; };
+		5AD595442052AE54004A58A6 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		5AD595462052AE7A004A58A6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5AD595482052AE93004A58A6 /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
+		5AD5954A2052AEA7004A58A6 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		5AD595502052AF9B004A58A6 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		5AD595522052AFB3004A58A6 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		7B887032F57113D36B818FD0 /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C0A0FF13037C57DC5725A2 /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF140C766C2C7AEBB5ED33C /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6FA586B396597FE85B5E78C /* Pods_A.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +141,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF1541D6B3C22DAF2DE4603 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C0A0FF13037C57DC5725A2 /* Pods-A.debug.xcconfig */,
+				ECF140C766C2C7AEBB5ED33C /* Pods-A.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5AD594CF20526BF1004A58A6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +157,8 @@
 				5AD594F220526BF1004A58A6 /* ATests */,
 				5AD594FD20526BF1004A58A6 /* AUITests */,
 				5AD594D920526BF1004A58A6 /* Products */,
+				4BF1541D6B3C22DAF2DE4603 /* Pods */,
+				B1FCE2A6E4EB556739A2E1D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +178,11 @@
 				5AD594DB20526BF1004A58A6 /* AppDelegate.swift */,
 				5AD594DD20526BF1004A58A6 /* ViewController.swift */,
 				5AD594DF20526BF1004A58A6 /* Main.storyboard */,
+				5AD5952420527FEE004A58A6 /* Library */,
+				5AD5952320527FD5004A58A6 /* Controller */,
+				5AD5952220527FC8004A58A6 /* View */,
+				5AD5952120527126004A58A6 /* Model */,
+				5AD59520205270F3004A58A6 /* Common */,
 				5AD594E520526BF1004A58A6 /* Assets.xcassets */,
 				5AD594E720526BF1004A58A6 /* LaunchScreen.storyboard */,
 				5AD594EA20526BF1004A58A6 /* Info.plist */,
@@ -128,6 +209,135 @@
 			path = AUITests;
 			sourceTree = "<group>";
 		};
+		5AD59520205270F3004A58A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5950C20526EEA004A58A6 /* Constants.swift */,
+				5AD5950E20526EF6004A58A6 /* Reachability.swift */,
+				5AD5951020526F33004A58A6 /* CustomAlertController.swift */,
+				5AD5951220526F38004A58A6 /* CustomActivityIndicator.swift */,
+				5AD5951620526FE9004A58A6 /* LocationManager.swift */,
+				5AD5951820527047004A58A6 /* DataBaseHelper.swift */,
+				5AD5951A2052706F004A58A6 /* ContactHelper.swift */,
+				5AD5951C2052709B004A58A6 /* CommonFunctions.swift */,
+				5AD5951E205270D6004A58A6 /* DataBaseBL.swift */,
+				5AD5951420526F4D004A58A6 /* ServiceHelper.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5AD5952120527126004A58A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5954F2052AF58004A58A6 /* Home */,
+				5AD5954E2052AF1F004A58A6 /* Side Menu */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AD5952220527FC8004A58A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5954D2052AED4004A58A6 /* Side Menu */,
+				5AD5954C2052AECD004A58A6 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AD5952320527FD5004A58A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5953B2052ADDB004A58A6 /* Side Menu */,
+				5AD5953A2052ADB6004A58A6 /* Home */,
+				5AD595312052ACEE004A58A6 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5AD5952420527FEE004A58A6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5AD595312052ACEE004A58A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5AD595272052AC51004A58A6 /* SignUpViewController.swift */,
+				5AD595292052AC69004A58A6 /* ForgotPasswordViewController.swift */,
+				5AD5952B2052AC8F004A58A6 /* ResetPasswordViewController.swift */,
+				5AD5952D2052ACAE004A58A6 /* ValidateOTPViewController.swift */,
+				5AD5952F2052ACD8004A58A6 /* IniatializationViewController.swift */,
+				5AD595252052A3FC004A58A6 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5AD5953A2052ADB6004A58A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5AD595322052AD2E004A58A6 /* ContactListViewController.swift */,
+				5AD595342052AD6D004A58A6 /* HomeViewController.swift */,
+				5AD595362052AD91004A58A6 /* UserSideMenuViewController.swift */,
+				5AD595382052ADAD004A58A6 /* SyncBackUpViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AD5953B2052ADDB004A58A6 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5AD5953C2052AE09004A58A6 /* ChangeNumberViewController.swift */,
+				5AD5953E2052AE1A004A58A6 /* UserProfileViewController.swift */,
+				5AD595402052AE34004A58A6 /* FavouriteViewController.swift */,
+				5AD595422052AE47004A58A6 /* CreateContactViewController.swift */,
+				5AD595442052AE54004A58A6 /* NotificationViewController.swift */,
+				5AD595462052AE7A004A58A6 /* SettingsViewController.swift */,
+				5AD595482052AE93004A58A6 /* NotificationSettingViewController.swift */,
+				5AD5954A2052AEA7004A58A6 /* GroupViewController.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		5AD5954C2052AECD004A58A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5AD5954D2052AED4004A58A6 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		5AD5954E2052AF1F004A58A6 /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				5AD595522052AFB3004A58A6 /* NotificationModel.swift */,
+			);
+			path = "Side Menu";
+			sourceTree = "<group>";
+		};
+		5AD5954F2052AF58004A58A6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5AD595502052AF9B004A58A6 /* ContactModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1FCE2A6E4EB556739A2E1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B887032F57113D36B818FD0 /* Pods_A.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +345,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AD5950320526BF1004A58A6 /* Build configuration list for PBXNativeTarget "A" */;
 			buildPhases = (
+				11511197CD6D25C3EB96267C /* [CP] Check Pods Manifest.lock */,
 				5AD594D420526BF1004A58A6 /* Sources */,
 				5AD594D520526BF1004A58A6 /* Frameworks */,
 				5AD594D620526BF1004A58A6 /* Resources */,
+				9E0D6F7F53CDC2F89E6FBA58 /* [CP] Embed Pods Frameworks */,
+				2B7B163EEBC8613F6DB6A81C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +470,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11511197CD6D25C3EB96267C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B7B163EEBC8613F6DB6A81C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0D6F7F53CDC2F89E6FBA58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A/Pods-A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AD594D420526BF1004A58A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD5952A2052AC69004A58A6 /* ForgotPasswordViewController.swift in Sources */,
+				5AD5953F2052AE1A004A58A6 /* UserProfileViewController.swift in Sources */,
+				5AD595432052AE47004A58A6 /* CreateContactViewController.swift in Sources */,
+				5AD595332052AD2F004A58A6 /* ContactListViewController.swift in Sources */,
+				5AD5954B2052AEA7004A58A6 /* GroupViewController.swift in Sources */,
+				5AD5953D2052AE09004A58A6 /* ChangeNumberViewController.swift in Sources */,
+				5AD595262052A3FC004A58A6 /* LoginViewController.swift in Sources */,
+				5AD5952C2052AC8F004A58A6 /* ResetPasswordViewController.swift in Sources */,
 				5AD594DE20526BF1004A58A6 /* ViewController.swift in Sources */,
+				5AD595532052AFB3004A58A6 /* NotificationModel.swift in Sources */,
+				5AD595352052AD6D004A58A6 /* HomeViewController.swift in Sources */,
+				5AD595512052AF9B004A58A6 /* ContactModel.swift in Sources */,
+				5AD595412052AE34004A58A6 /* FavouriteViewController.swift in Sources */,
+				5AD595452052AE54004A58A6 /* NotificationViewController.swift in Sources */,
 				5AD594E420526BF1004A58A6 /* A.xcdatamodeld in Sources */,
+				5AD595302052ACD8004A58A6 /* IniatializationViewController.swift in Sources */,
+				5AD595372052AD91004A58A6 /* UserSideMenuViewController.swift in Sources */,
+				5AD5951F205270D6004A58A6 /* DataBaseBL.swift in Sources */,
 				5AD594DC20526BF1004A58A6 /* AppDelegate.swift in Sources */,
+				5AD5951120526F33004A58A6 /* CustomAlertController.swift in Sources */,
+				5AD5952E2052ACAE004A58A6 /* ValidateOTPViewController.swift in Sources */,
+				5AD595492052AE93004A58A6 /* NotificationSettingViewController.swift in Sources */,
+				5AD5951920527047004A58A6 /* DataBaseHelper.swift in Sources */,
+				5AD5951B2052706F004A58A6 /* ContactHelper.swift in Sources */,
+				5AD5951D2052709B004A58A6 /* CommonFunctions.swift in Sources */,
+				5AD595282052AC51004A58A6 /* SignUpViewController.swift in Sources */,
+				5AD5950F20526EF6004A58A6 /* Reachability.swift in Sources */,
+				5AD595472052AE7A004A58A6 /* SettingsViewController.swift in Sources */,
+				5AD5950D20526EEB004A58A6 /* Constants.swift in Sources */,
+				5AD5951320526F38004A58A6 /* CustomActivityIndicator.swift in Sources */,
+				5AD595392052ADAD004A58A6 /* SyncBackUpViewController.swift in Sources */,
+				5AD5951520526F4D004A58A6 /* ServiceHelper.swift in Sources */,
+				5AD5951720526FE9004A58A6 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +725,7 @@
 		};
 		5AD5950420526BF1004A58A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C0A0FF13037C57DC5725A2 /* Pods-A.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +740,7 @@
 		};
 		5AD5950520526BF1004A58A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF140C766C2C7AEBB5ED33C /* Pods-A.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
